@@ -1,0 +1,34 @@
+id,name,domain,difficulty,credits,rating,tags,prerequisites,semester
+CS101,Introduction to Programming,Computer Science,Beginner,4,4.5,"programming,python,basics",,1
+CS102,Data Structures,Computer Science,Intermediate,4,4.3,"algorithms,data structures,python","CS101",2
+CS201,Algorithms,Computer Science,Intermediate,4,4.4,"algorithms,complexity,problem solving","CS102",3
+CS202,Database Systems,Computer Science,Intermediate,3,4.2,"sql,databases,design","CS101",3
+CS301,Machine Learning,AI/ML,Advanced,4,4.8,"ml,python,statistics","CS201,MATH201",5
+CS302,Deep Learning,AI/ML,Advanced,4,4.7,"neural networks,pytorch,ai","CS301",6
+CS303,Computer Vision,AI/ML,Advanced,3,4.6,"opencv,cnn,image processing","CS302",7
+CS304,NLP,AI/ML,Advanced,3,4.5,"nlp,transformers,text","CS302",7
+CS305,Reinforcement Learning,AI/ML,Advanced,3,4.4,"rl,agents,rewards","CS301",8
+CS401,Cloud Computing,Systems,Intermediate,3,4.1,"aws,azure,devops","CS202",5
+CS402,Cybersecurity,Systems,Intermediate,3,4.3,"security,cryptography,networks","CS201",5
+CS403,Distributed Systems,Systems,Advanced,4,4.2,"microservices,kafka,scalability","CS401",6
+WEB101,Web Development Basics,Web Dev,Beginner,3,4.4,"html,css,javascript",,2
+WEB201,React & Frontend,Web Dev,Intermediate,3,4.6,"react,typescript,ui","WEB101",4
+WEB202,Node.js & Backend,Web Dev,Intermediate,3,4.3,"nodejs,express,api","WEB101",4
+WEB301,Full Stack Development,Web Dev,Advanced,4,4.7,"react,node,mongodb","WEB201,WEB202",6
+DATA101,Data Analysis,Data Science,Beginner,3,4.2,"pandas,numpy,visualization",,2
+DATA201,Data Visualization,Data Science,Intermediate,3,4.3,"matplotlib,tableau,d3","DATA101",4
+DATA301,Big Data Analytics,Data Science,Advanced,4,4.1,"spark,hadoop,scala","DATA201",6
+MATH101,Calculus,Mathematics,Intermediate,4,3.9,"calculus,derivatives,integrals",,1
+MATH201,Statistics & Probability,Mathematics,Intermediate,4,4.1,"statistics,probability,distributions","MATH101",3
+MATH301,Linear Algebra,Mathematics,Intermediate,3,4.0,"matrices,vectors,eigenvalues","MATH101",2
+FIN101,Financial Accounting,Finance,Beginner,3,3.8,"accounting,finance,balance sheets",,1
+FIN201,Corporate Finance,Finance,Intermediate,3,4.0,"valuation,dcf,financial modeling","FIN101",3
+FIN301,Investment Banking,Finance,Advanced,3,4.2,"ibd,m&a,lbo","FIN201",5
+PM101,Product Management Basics,Product,Beginner,2,4.3,"product thinking,user research,agile",,3
+PM201,Agile & Scrum,Product,Intermediate,2,4.2,"scrum,sprints,kanban","PM101",4
+PM301,Product Strategy,Product,Advanced,3,4.5,"strategy,go-to-market,okrs","PM201",6
+DS101,Design Thinking,Design,Beginner,2,4.4,"ux,design thinking,empathy",,2
+DS201,UI/UX Design,Design,Intermediate,3,4.6,"figma,prototyping,user flows","DS101",4
+ETHICS101,AI Ethics & Society,Ethics,Beginner,2,4.0,"ethics,bias,fairness,ai",,4
+ENTR101,Entrepreneurship,Business,Beginner,2,4.3,"startup,business model,mvp",,5
+COMM101,Technical Communication,Communication,Beginner,2,3.7,"writing,presentation,communication",,1
