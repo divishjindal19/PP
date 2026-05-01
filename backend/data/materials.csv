@@ -1,0 +1,21 @@
+id,title,type,domain,difficulty,url,rating,tags,course_id
+MAT001,Python Crash Course Book,Book,Computer Science,Beginner,https://nostarch.com/python-crash-course-3rd-edition,4.7,"python,programming,beginner",CS101
+MAT002,3Blue1Brown: Essence of Linear Algebra,Video,Mathematics,Intermediate,https://youtube.com/3blue1brown,4.9,"linear algebra,math,visual",MATH301
+MAT003,fast.ai Deep Learning Course,Course,AI/ML,Intermediate,https://fast.ai,4.8,"deep learning,pytorch,practical",CS302
+MAT004,Stanford CS229 ML Notes,Notes,AI/ML,Advanced,https://cs229.stanford.edu,4.7,"ml,stanford,theory","CS301"
+MAT005,Designing Data-Intensive Applications,Book,Systems,Advanced,https://dataintensive.net,4.9,"distributed systems,databases,scalability",CS403
+MAT006,The Pragmatic Programmer,Book,Software Engineering,Intermediate,https://pragprog.com,4.6,"software engineering,best practices,career",CS201
+MAT007,React Docs Official,Documentation,Web Dev,Beginner,https://react.dev,4.5,"react,frontend,javascript",WEB201
+MAT008,CS50 by Harvard,Course,Computer Science,Beginner,https://cs50.harvard.edu,4.9,"programming,algorithms,c,python",CS101
+MAT009,Kaggle ML Competitions,Practice,AI/ML,Intermediate,https://kaggle.com,4.6,"ml,data science,competition,practice",CS301
+MAT010,Andrej Karpathy Neural Nets,Video,AI/ML,Advanced,https://karpathy.ai,4.9,"neural nets,backprop,pytorch",CS302
+MAT011,Investopedia Finance Courses,Course,Finance,Beginner,https://investopedia.com/courses,4.2,"finance,investing,beginner",FIN101
+MAT012,System Design Primer,GitHub,Systems,Advanced,https://github.com/donnemartin/system-design-primer,4.8,"system design,interviews,scalability",CS403
+MAT013,The Lean Startup,Book,Entrepreneurship,Beginner,https://leanstartup.co,4.4,"startup,lean,mvp,entrepreneurship",ENTR101
+MAT014,Figma UI Design YouTube,Video,Design,Beginner,https://youtube.com/figma,4.5,"figma,design,ui,ux",DS201
+MAT015,LeetCode DSA Practice,Practice,Computer Science,Intermediate,https://leetcode.com,4.7,"dsa,algorithms,interview prep",CS201
+MAT016,Andrew Ng ML Specialization,Course,AI/ML,Intermediate,https://coursera.org/specializations/machine-learning,4.8,"ml,coursera,andrew ng,supervised learning",CS301
+MAT017,Docker & Kubernetes for Beginners,Video,DevOps,Intermediate,https://youtube.com/techworld,4.4,"docker,k8s,devops,containers",CS401
+MAT018,Eloquent JavaScript,Book,Web Dev,Intermediate,https://eloquentjavascript.net,4.6,"javascript,web,programming",WEB101
+MAT019,Probability & Statistics MIT OCW,Course,Mathematics,Intermediate,https://ocw.mit.edu/stats,4.5,"statistics,probability,math",MATH201
+MAT020,Clean Code by Robert Martin,Book,Software Engineering,Intermediate,https://books.google.com/cleancode,4.5,"clean code,refactoring,best practices",CS201
