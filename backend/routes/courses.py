@@ -9,7 +9,11 @@ router = APIRouter()
 
 
 class StudentQuery(BaseModel):
+<<<<<<< HEAD
     student_id: str = "demo"
+=======
+    student_id: str
+>>>>>>> 47cf9c9240eb2cbc2630e763a4af4e00df3d0a75
     branch: Optional[str] = "Computer Science"
     year: Optional[int] = 2
     gpa: Optional[float] = 3.0
@@ -22,6 +26,42 @@ class StudentQuery(BaseModel):
 @router.post("/courses")
 async def get_course_recommendations(
     query: Optional[StudentQuery] = Body(None),
+<<<<<<< HEAD
+=======
+    n: int = Query(8)
+):
+    """
+    POST: Works with or WITHOUT body
+    """
+
+    # 👉 If no body sent, use default/demo data
+    if query is None:
+        student = {
+            "student_id": "demo",
+            "branch": "Computer Science",
+            "year": 2,
+            "gpa": 3.0,
+            "interests": ["AI", "ML"],
+            "skills": ["Python"],
+            "career_goal": "ML Engineer",
+            "completed_courses": ["CS101"]
+        }
+    else:
+        student = query.model_dump()
+
+    results = recommend_courses(student, n=n)
+
+    return {
+        "student_id": student["student_id"],
+        "recommendations": results,
+        "count": len(results),
+        "algorithm": "Hybrid (TF-IDF + Prerequisite-aware filtering)",
+    }
+
+
+@router.post("/courses")
+async def get_course_recommendations(
+>>>>>>> 47cf9c9240eb2cbc2630e763a4af4e00df3d0a75
     student_id: str = Query("demo"),
     branch: str = Query("Computer Science"),
     year: int = Query(2),
@@ -32,6 +72,7 @@ async def get_course_recommendations(
     completed_courses: str = Query("CS101"),
     n: int = Query(8),
 ):
+<<<<<<< HEAD
     """
     Works with BOTH:
     - JSON body
@@ -54,11 +95,28 @@ async def get_course_recommendations(
             "career_goal": career_goal,
             "completed_courses": [c.strip() for c in completed_courses.split(",") if c.strip()],
         }
+=======
+
+    student = {
+        "student_id": student_id,
+        "branch": branch,
+        "year": year,
+        "gpa": gpa,
+        "interests": [i.strip() for i in interests.split(",") if i.strip()],
+        "skills": [s.strip() for s in skills.split(",") if s.strip()],
+        "career_goal": career_goal,
+        "completed_courses": [c.strip() for c in completed_courses.split(",") if c.strip()],
+    }
+>>>>>>> 47cf9c9240eb2cbc2630e763a4af4e00df3d0a75
 
     results = recommend_courses(student, n=n)
 
     return {
+<<<<<<< HEAD
         "student_id": student["student_id"],
+=======
+        "student_id": student_id,
+>>>>>>> 47cf9c9240eb2cbc2630e763a4af4e00df3d0a75
         "recommendations": results,
         "count": len(results),
         "algorithm": "Hybrid (TF-IDF + Prerequisite-aware filtering)",

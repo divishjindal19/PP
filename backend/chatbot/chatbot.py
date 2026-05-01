@@ -14,7 +14,11 @@ router = APIRouter()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+<<<<<<< HEAD
 GROQ_MODEL = "llama-3.1-8b-instant"  # Fast, free tier Groq model
+=======
+GROQ_MODEL = "llama3-8b-8192"  # Fast, free tier Groq model
+>>>>>>> 47cf9c9240eb2cbc2630e763a4af4e00df3d0a75
 
 # University knowledge base (simulated RAG context)
 UNIVERSITY_KNOWLEDGE = """

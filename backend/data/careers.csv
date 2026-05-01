@@ -1,4 +1,5 @@
 id,title,domain,career_stage,description,skills_required,avg_salary_lpa,growth_rate,tags,courses_needed
+<<<<<<< HEAD
 CAR001,ML Engineer,AI/ML,Mid-Senior,Design and deploy machine learning systems at scale,"Python,TensorFlow,PyTorch,Statistics,MLOps",25,45,"ml,ai,engineering,python","CS301,CS302,MATH201"
 CAR002,Data Scientist,Data Science,Mid-Senior,Extract insights from data using statistical and ML methods,"Python,R,Statistics,SQL,Visualization",20,38,"data,science,analytics,python","DATA301,CS301,MATH201"
 CAR003,Full Stack Developer,Web Dev,Junior-Mid,Build end-to-end web applications,"React,Node.js,MongoDB,Docker,AWS",15,35,"web,fullstack,react,node","WEB301,CS202"
@@ -11,3 +12,17 @@ CAR009,Research Scientist,Research,Senior,Conduct fundamental research in AI/ML,
 CAR010,Quantitative Analyst,Finance/ML,Mid-Senior,Build mathematical models for financial markets,"Python,Statistics,C++,Financial Markets",28,35,"quant,finance,trading,math","MATH301,CS301,FIN201"
 CAR011,Blockchain Developer,Web3,Junior-Mid,Build decentralized applications and smart contracts,"Solidity,Web3.js,React,Cryptography",16,50,"blockchain,web3,solidity,defi","WEB201,CS402"
 CAR012,Cloud Architect,Cloud,Senior,Design scalable cloud-native architectures,"AWS,Azure,GCP,Microservices,Security",30,40,"cloud,architecture,aws,azure","CS401,CS403"
+=======
+CAR001,ML Engineer,AI/ML,Mid-Senior,"Design and deploy machine learning systems at scale","Python,TensorFlow,PyTorch,Statistics,MLOps",25,45,"ml,ai,engineering,python","CS301,CS302,MATH201"
+CAR002,Data Scientist,Data Science,Mid-Senior,"Extract insights from data using statistical and ML methods","Python,R,Statistics,SQL,Visualization",20,38,"data,science,analytics,python","DATA301,CS301,MATH201"
+CAR003,Full Stack Developer,Web Dev,Junior-Mid,"Build end-to-end web applications","React,Node.js,MongoDB,Docker,AWS",15,35,"web,fullstack,react,node","WEB301,CS202"
+CAR004,Product Manager,Product,Mid-Senior,"Define product vision and lead cross-functional teams","Strategy,Agile,Analytics,Communication",22,30,"product,management,strategy,agile","PM301,DATA201"
+CAR005,Cybersecurity Analyst,Security,Junior-Mid,"Protect systems and investigate security incidents","Networks,Cryptography,Linux,Ethical Hacking",18,40,"security,cyber,hacking,networks","CS402,CS201"
+CAR006,Investment Banker,Finance,Junior-Senior,"Mergers, acquisitions, and capital markets","Excel,Financial Modeling,Valuation,Communication",30,25,"finance,banking,investment,ibd","FIN301,FIN201"
+CAR007,UX/UI Designer,Design,Junior-Mid,"Create intuitive and beautiful user experiences","Figma,User Research,Prototyping,Design Thinking",12,32,"design,ux,ui,figma","DS201,DS101"
+CAR008,DevOps Engineer,Systems,Mid-Senior,"Automate deployment pipelines and manage infrastructure","Docker,Kubernetes,CI/CD,Linux,AWS",20,42,"devops,cloud,infrastructure,automation","CS401,CS403"
+CAR009,Research Scientist,Research,Senior,"Conduct fundamental research in AI/ML","Deep Mathematics,ML Theory,Paper Writing,Python",18,28,"research,science,phd,academic","CS302,CS305,MATH301"
+CAR010,Quantitative Analyst,Finance/ML,Mid-Senior,"Build mathematical models for financial markets","Python,Statistics,C++,Financial Markets",28,35,"quant,finance,trading,math","MATH301,CS301,FIN201"
+CAR011,Blockchain Developer,Web3,Junior-Mid,"Build decentralized applications and smart contracts","Solidity,Web3.js,React,Cryptography",16,50,"blockchain,web3,solidity,defi","WEB201,CS402"
+CAR012,Cloud Architect,Cloud,Senior,"Design scalable cloud-native architectures","AWS,Azure,GCP,Microservices,Security",30,40,"cloud,architecture,aws,azure","CS401,CS403"
+>>>>>>> 47cf9c9240eb2cbc2630e763a4af4e00df3d0a75
